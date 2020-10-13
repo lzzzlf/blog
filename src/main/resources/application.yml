@@ -1,0 +1,19 @@
+spring:
+  thymeleaf:
+    mode: HTML
+
+  resources:add-mappings: true
+
+  datasource:
+    username: root
+    password: wyjwjl
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  file:
+    name: spring.log
+  level:
+    root: info
+    com.lzzzz.blog: trace
+
